@@ -1,0 +1,141 @@
+body {
+  background: #21A0A0;
+  font-family: Oswald, opens-sans, sans-serif;
+  margin: 20px 0;
+}
+
+img {
+  box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+img.profile {
+  display: block;
+  height: 150px;
+  border-radius: 25%;
+  margin: auto;
+}
+
+.header {
+  background: #046865;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header h1 {
+  line-height: 1;
+  font-family: Bungee Shade, cursive;
+  font-size: 3em;
+  transition: color 1s, transform 1s;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header h1:hover span {
+  color: rgba(252, 255, 247, 0.5);
+  transition: color 1s, transform 1s;
+}
+
+.header ul {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 10px;
+
+}
+
+.header ul li {
+  display: inline-block;
+  margin: 5px 10px 15px;
+}
+
+.header ul li a {
+  font-size: 1.2em;
+  padding: 10px 25px;
+}
+
+.header ul li a:hover {
+  border-top: 5px solid rgba(252, 255, 247, 0.8);
+  cursor: pointer;
+  transition: border-top 100ms, transform 100s;
+  color: rgba(252, 255, 247, 0.8);
+}
+
+.header li.active a {
+  color: rgba(252, 255, 247, 0.5);
+}
+.content-head {
+  text-align: center;
+}
+
+.content-body {
+  max-width: 650px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gallery img {
+  /*display: inline-block;*/
+  max-width: 300px;
+  border-radius: 25%;
+  margin: 10px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.hobbies-head {
+  background-image: url('../img/12651346_10153703015690073_892877201998850954_n.jpg');
+  background-size: cover;
+}
+
+.bio-head {
+  background-image: url('../img/20160510_142547.jpg');
+  background-size: cover;
+}
+
+.form {
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+.form label {
+  display: block;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 90%;
+  padding: 15px;
+  font-family: open sans, sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 2px solid #21A0A0;
+}
+
+.form input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  font-family: open sans, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  border: 2px solid #E53D00;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 150px;
+}
